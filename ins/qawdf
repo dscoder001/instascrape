@@ -1,0 +1,3 @@
+creds['page_id'] = 'FB-PAGE-ID' # users page id
+	creds['instagram_account_id'] = '17841466372695032' # users instagram account id
+	creds['ig_username'] = 'ragdbrx' # ig username
