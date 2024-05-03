@@ -70,8 +70,8 @@ except : # default to coding hashtag
 params = getCreds() # params for api call
 params['hashtag_name'] = hashtag # add on the hashtag we want to search for
 hashtagInfoResponse = getHashtagInfo( params ) # hit the api for some data!
-params['hashtag_id'] = '17841563017093367'
-#params['hashtag_id'] = hashtagInfoResponse['json_data']['data'][0]['id']; # store hashtag id
+#params['hashtag_id'] = '17841563017093367'
+params['hashtag_id'] = hashtagInfoResponse['json_data']['data'][0]['id']; # store hashtag id
 
 print("\n\n\n\t\t\t >>>>>>>>>>>>>>>>>>>> HASHTAG INFO <<<<<<<<<<<<<<<<<<<<\n") # section heading
 print("\nHashtag: " + hashtag) # display hashtag
